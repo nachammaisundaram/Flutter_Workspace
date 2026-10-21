@@ -1,0 +1,58 @@
+# Dart Basics
+
+- Dart is a client-optimized programming language developed by Google.
+- Dart became popular after it was adopted by Flutter.
+- Dart can be used to build mobile, web, server and backend applications, e.g., Google Ads is built with Dart.
+- Dart is an object-oriented language with C-style syntax, similar to Java, JavaScript and C#.
+- Dart is fast and efficient because it supports both compilation modes:
+  - **JIT (Just-in-Time):** used during development, enables hot reload.
+  - **AOT (Ahead-of-Time):** used for release builds, gives fast app performance.
+
+## Flutter
+
+- Flutter is a UI framework that uses Dart.
+- An app built with Flutter runs on both Android and iOS from a single codebase.
+
+# To Practice : dartpad.dev
+
+# Simple printing program 
+void main()    #prgm starts from the main fun and the whole prgm is written inside this main fun 
+{
+  print("Hello World !");
+}
+
+# Simple Math program
+void main()
+{
+  int a=10;
+  int b=20;
+  int c=a+b;
+  print(c);
+}
+
+# printing String variables
+void main()
+{
+  String name="Nachammai";
+  print (name);
+}
+
+# printing string and integer variables
+void main()
+{
+  String fruit="apple";
+  int price = 10;
+  int count = 5;
+  int total = price * count;
+  print("Fruit: "+fruit); 
+  print("Price of one apple:$price");
+  print("Count of apples bought:$count");
+  print("Amount to be paid: $total");
+}
+
+
+o/p: Fruit: apple
+     Price of one apple:10
+     Count of apples bought:5
+     Amount to be paid: 50
+

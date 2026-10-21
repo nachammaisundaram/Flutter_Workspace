@@ -1,0 +1,100 @@
+# simple if_else with Boolean keyword 
+void main()
+{
+  bool rain = true;       //false
+  if(rain)
+  {
+    print("take an umbrella");
+  }
+  else{
+    print("enjoy the sunlight!");
+  }
+}
+
+o/p: take an umbrella     //enjoy the sunlight!
+
+
+
+void main()
+{
+  bool holiday = true;    //false
+  if(holiday)
+  {
+    print("Go out with frieds");
+  }
+  else{
+    print("Get ready to college");
+  }
+}
+
+o/p: Go out with frieds   //Get ready to college
+
+#__________________________________________________________________________#
+
+#Comparison operator 
+
+void main()
+{
+  print(5>10);    //false        //11>10 - true
+}
+
+
+void main()
+{
+  int a=10;
+  int b=20;
+  if(a>b)
+  {
+    print("$a is greater than $b");
+  }
+  else{
+    print("$b is greater than $a");
+  }
+}
+
+o/p: 20 is greater than 10
+
+
+
+# Guess the output 
+if(10<5)
+{
+    print("10 is greater than 5");
+}
+//will i get the output as '10 is geater than 5' or not?
+Answer: the logical answer is false (10<5 is false) so the else part has to be executed,
+ since here we dont have the else part so we will not get any output.
+
+
+# comparison operator
+void main()
+{
+  int score =79;   ///20                    //35
+  if(score>=35)    //20>=35 : FAIL          //35>=35 : PASS
+  {
+    print("PASS");
+  }
+  else
+  {
+    print("FAIL");
+  }
+}
+
+o/p: PASS
+
+
+#comparison operator
+void main()
+{
+  int a =10;
+  int b=20;  //10
+  if(a==b)   //10==10
+  {
+    print("equal");
+  }
+  else{
+    print("not equal");
+  }
+}
+
+o/p: not equal  //equal
