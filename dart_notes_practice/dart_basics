@@ -13,46 +13,83 @@
 - Flutter is a UI framework that uses Dart.
 - An app built with Flutter runs on both Android and iOS from a single codebase.
 
-# To Practice : dartpad.dev
+---
 
-# Simple printing program 
-void main()    #prgm starts from the main fun and the whole prgm is written inside this main fun 
-{
-  print("Hello World !");
+# Dart Practice
+
+Practice website: [dartpad.dev](https://dartpad.dev)
+
+## 1. Simple Printing Program
+
+Every Dart program starts from the `main()` function, and the whole program is written inside it.
+
+```dart
+void main() {
+  print("Hello World!");
 }
+```
 
-# Simple Math program
-void main()
-{
-  int a=10;
-  int b=20;
-  int c=a+b;
+**Output:**
+
+```text
+Hello World!
+```
+
+## 2. Simple Math Program
+
+```dart
+void main() {
+  int a = 10;
+  int b = 20;
+  int c = a + b;
   print(c);
 }
+```
 
-# printing String variables
-void main()
-{
-  String name="Nachammai";
-  print (name);
+**Output:**
+
+```text
+30
+```
+
+## 3. Printing a String Variable
+
+```dart
+void main() {
+  String name = "Nachammai";
+  print(name);
 }
+```
 
-# printing string and integer variables
-void main()
-{
-  String fruit="apple";
+**Output:**
+
+```text
+Nachammai
+```
+
+## 4. Printing String and Integer Variables
+
+```dart
+void main() {
+  String fruit = "apple";
   int price = 10;
   int count = 5;
   int total = price * count;
-  print("Fruit: "+fruit); 
-  print("Price of one apple:$price");
-  print("Count of apples bought:$count");
+
+  print("Fruit: $fruit");
+  print("Price of one apple: $price");
+  print("Count of apples bought: $count");
   print("Amount to be paid: $total");
 }
+```
 
+**Output:**
 
-o/p: Fruit: apple
-     Price of one apple:10
-     Count of apples bought:5
-     Amount to be paid: 50
+```text
+Fruit: apple
+Price of one apple: 10
+Count of apples bought: 5
+Amount to be paid: 50
+```
 
+**Note:** `$variable` inserts the variable's value inside a string. This is called **string interpolation**.
